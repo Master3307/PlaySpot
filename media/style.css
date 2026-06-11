@@ -1,38 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Oi&display=swap");
 
-/* Color Presets */
-/* Dark Theme (Default) */
-:root {
-  --bg-primary: #0d0714;
-  --bg-secondary: #63369e;
-  --text-primary: #ffffff;
-  --text-secondary: #c0bfe6;
-  --text-thirdary: #dfdfdf;
-  --vier: #000000;
-  --accent: #3d29d4;
-  --accent-hover: #5a4bd6;
-  --border: #47405b;
-}
-
-/* Optional system fallback for users with no manual selection */
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme]) {
-    --bg-primary: #b28ee1;
-    --bg-secondary: #8859c6;
-    --text-primary: #ffffff;
-    --text-secondary: #c1bdce;
-    --text-thirdary: #000000;
-    --vier: #ffffff;
-    --accent: #5f4ee6;
-    --accent-hover: #4638c9;
-    --border: #e6e0f6;
-  }
-}
 
 /* Manual override: dark */
 :root[data-theme="dark"] {
   --bg-primary: #0d0714;
-  --bg-secondary: #63369e;
+  --bg-secondary: #38f7cdec;
   --text-primary: #ffffff;
   --text-secondary: #c0bfe6;
   --text-thirdary: #ffffff;

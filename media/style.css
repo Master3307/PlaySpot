@@ -263,3 +263,8 @@ body::before {
   background: var(--bg-secondary);
   color: var(--text-primary);
 }
+
+.txt {
+  color: var(--text-secondary);
+  margin-top: 12px;
+}

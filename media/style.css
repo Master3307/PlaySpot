@@ -127,7 +127,7 @@ body::before {
   max-width: 740px;
   margin: 42px auto;
   padding: 28px 26px;
-  background: #ff00009a;
+  background: #0000ff;
   border-radius: 20px;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
